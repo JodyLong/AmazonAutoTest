@@ -11,7 +11,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import org.testng.annotations.BeforeTest;
-
+import java.util.Properties;
+import java.util.Random;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Properties;
 
 
@@ -20,7 +25,7 @@ import java.util.Properties;
         driverLifecycle = ConfigurationProperties.DriverLifecycle.CLASS)
 public class BasicTest extends FluentTestNg
 {
-    private Properties proper = null;
+    private Properties prop = null;
 
     @Page
     public SignInPage signInPage;
@@ -36,13 +41,45 @@ public class BasicTest extends FluentTestNg
     public String password;
 
     @BeforeTest
+    public void readFile()
+    {
+
+        /*
+            Important: please update the filepath of the property file
+         */
+        File file = new File("E:/Amazon/amazon.properties");
+        FileInputStream fileInput = null;
+        try {
+            fileInput = new FileInputStream(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        prop = new Properties();
+
+        try {
+            prop.load(fileInput);
+            System.out.println("Login url " + prop.getProperty("URL"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Properties prop()
+    {
+        return prop;
+    }
+
+    @BeforeTest
     public void setUp()
     {
-        URL = "https://www.amazon.ca";
-        username = "testama@dispostable.com";
-        password = "Amazon1861";
+        //URL = "https://www.amazon.ca";
+        //username = "testama@dispostable.com";
+        //password = "Amazon1861";
+        URL = prop.getProperty("URL");
+        username = prop.getProperty("username");
+        password =  prop.getProperty("password");
 
-        System.out.println(username + password + URL);
+        System.out.println(username +"    " + password + "    " + URL);
     }
 
     @Override
