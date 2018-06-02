@@ -13,14 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeTest;
 
 import java.util.Properties;
-import java.util.Random;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
-import static org.fluentlenium.core.filter.FilterConstructor.withClass;
-import static org.fluentlenium.core.filter.FilterConstructor.withText;
 
 @FluentConfiguration(implicitlyWait = 5000L,
         screenshotMode = ConfigurationProperties.TriggerMode.AUTOMATIC_ON_FAIL ,
@@ -56,7 +49,11 @@ public class BasicTest extends FluentTestNg
     public WebDriver newWebDriver()
     {
         System.out.println("settingup WebDriver");
-        System.setProperty("webdriver.chrome.driver","E:/Amazon/Driver/chromedriver.exe");                  //update path
+        /*
+            Important: the automation test cases for this project requires chromedriver to be executed
+            Update the following path in order to run test cases
+         */
+        System.setProperty("webdriver.chrome.driver","E:/Amazon/Driver/chromedriver.exe");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         WebDriver driver = new ChromeDriver(capabilities);
         return driver;

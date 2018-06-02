@@ -25,13 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchModule.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+            <state relative-caret-position="1368">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2234#2235#0" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2317#2318#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+                <element signature="e#2416#2417#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCases/BasicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Sl.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/SimpleTest.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java" />
@@ -76,6 +93,7 @@
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SignInModule.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java" />
       </list>
     </option>
   </component>
@@ -627,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -730,10 +738,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        <state relative-caret-position="1368">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2416#2417#0" expanded="true" />
           </folding>
         </state>
       </provider>
