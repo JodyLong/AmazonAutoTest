@@ -18,14 +18,22 @@ public class TestCase1 extends BasicTest
     public void gotoSite()
     {
         caseInfo("1", "Go to www.amazon.ca");
+        //Test Case 1 - Step a&b
         gotoURL();
         await().explicitlyFor(500);
+
+        if(!mainPage.navTools().checkSession())
+        {
+            throw new ArithmeticException();
+        }
     }
     @Test(priority = 1)
     public void checkCurrentUser()
     {
         caseInfo("2", "Check User Session");
-        if(!mainPage.navTools().checkSession())
+
+        //Test Case 1 - Step c
+        if(!mainPage.navTools().checkLabel())
         {
             throw new ArithmeticException();
         }

@@ -12,7 +12,9 @@ public class SignInModule extends BasicModule
     {
         super(element, control, instantiator);
     }
-
+    /*
+        On the sign in page, fill in email address in the input field
+     */
     public SignInModule fillInEmailAddr(String emailAddr)
     {
         FluentWebElement input_EmailAddr = el("input", withId("ap_email"));
@@ -26,12 +28,16 @@ public class SignInModule extends BasicModule
         return this;
     }
 
+    /*
+        Fill in password and submit
+     */
     public void fillInPassword(String password)
     {
         FluentWebElement input_EmailAddr = el("input", withId("ap_password"));
         input_EmailAddr.fill().withText(password);
         System.out.println("Password filled: "+ password);
 
+        //Submit request of signing in
         FluentWebElement button_SignIn = el("input", withId("signInSubmit"));
         button_SignIn.click();
         System.out.println("Sign in confirmed");

@@ -14,6 +14,9 @@ public class SearchModule extends BasicModule
         super(element, control, instantiator);
     }
 
+    /*
+        Input keyword in the searchbar on main page, then click submit button
+     */
     public void searchFor(String keyword)
     {
         FluentWebElement searchBar = el("input", withId("twotabsearchtextbox"));
@@ -26,6 +29,9 @@ public class SearchModule extends BasicModule
         button_Submit.click();
     }
 
+    /*
+        Check if the result page is actually displaying the results for the original keyword or corrected keyword
+     */
     public boolean checkErrorMsg()
     {
         try {
@@ -42,6 +48,9 @@ public class SearchModule extends BasicModule
         }
     }
 
+    /*
+        Print out all displaying item names in result page - only for the first page
+     */
     public void checkResults()
     {
         FluentWebElement resultTable = el("ul", withId("s-results-list-atf"));
@@ -57,7 +66,9 @@ public class SearchModule extends BasicModule
             System.out.println("Result ["+ (i+1) +"]: " + itemName);
         }
     }
-
+    /*
+        Go to the item detail page by clicking the label
+     */
     public void gotoResult(String itemName)
     {
         FluentWebElement targetItem = el("h2", withText(itemName));

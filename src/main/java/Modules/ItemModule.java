@@ -12,14 +12,18 @@ public class ItemModule extends BasicModule
     {
         super(element, control, instantiator);
     }
-
+    /*
+        On the item page, click "Add to Cart" button
+     */
     public void addToCart()
     {
         FluentWebElement button_addToCart = el("input", withId("add-to-cart-button"));
         button_addToCart.click();
 
     }
-
+    /*
+        After clicking "Add to Cart" button, click "Proceed to Checkout" button
+     */
     public void proceedToCheckout()
     {
         FluentWebElement button_proceedToCheckout = el("span", withId("hlb-ptc-btn"));

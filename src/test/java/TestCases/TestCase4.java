@@ -14,6 +14,7 @@ public class TestCase4 extends BasicTest
     public void gotoSite()
     {
         caseInfo("1", "Go to www.amazon.ca");
+        //Test Case 4 - Step a
         gotoURL();
         await().explicitlyFor(500);
     }
@@ -24,10 +25,14 @@ public class TestCase4 extends BasicTest
         caseInfo("2", "Search for alpja");
 
         String keyword = "alpja";
-
+        //Test Case 4 - Step b
         mainPage.searchBar().searchFor(keyword);
         await().explicitlyFor(1000);
 
+        //Test Case 4 - Step c
+        //Note: when searching for "alpja" on amazon.ca, there are still searching results displayed, with a warning message:
+        //      Showing results for alpha.Search instead for alpja.
+        //This test case is for detecting that message
         if(!mainPage.searchResults().checkErrorMsg())
         {
             throw new ArithmeticException("Expected message. No message displayed.");

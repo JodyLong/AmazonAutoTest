@@ -13,44 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestCase1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" selection-start-line="33" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NavToolModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-773">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="789">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,60 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCase5.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="85" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Pages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchModule.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchModule.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="347">
+              <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Amazon" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,16 +66,16 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCases/SimpleTest.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/BasicTest.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase1.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SignInModule.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase2.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase4.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase3.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java" />
-        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/main/java/Pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase1.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase2.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase3.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase4.java" />
         <option value="$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase5.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SignInModule.java" />
+        <option value="$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java" />
       </list>
     </option>
   </component>
@@ -171,6 +92,7 @@
     <option name="width" value="1355" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -265,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCase5">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -461,11 +383,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCase1" />
         <item itemvalue="TestNG.TestCase5" />
         <item itemvalue="TestNG.TestCase3" />
         <item itemvalue="TestNG.TestCase4" />
         <item itemvalue="TestNG.TestCase2" />
-        <item itemvalue="TestNG.TestCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -483,9 +405,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase3 - 2018.06.01 at 23h 23m 30s.xml">
-      <configuration name="TestCase3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestCase3 - 2018.06.01 at 23h 24m 16s.xml">
       <configuration name="TestCase3" configurationId="TestNG" />
     </history-entry>
@@ -513,6 +432,9 @@
     <history-entry file="TestCase5 - 2018.06.02 at 00h 18m 08s.xml">
       <configuration name="TestCase5" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestCase1 - 2018.06.02 at 00h 31m 19s.xml">
+      <configuration name="TestCase1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="589" y="11" width="1355" height="1047" extended-state="0" />
@@ -520,18 +442,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32942432" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32870865" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17027633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17027633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -715,20 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SignInModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" selection-start-line="33" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="461">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -748,27 +660,27 @@
     <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,27 +698,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java">
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/ItemModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-773">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="85" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="85" />
+        <state relative-caret-position="475">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Amazon/src/test/java/TestCases/TestCase5.java">
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/NavToolModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="789">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SignInModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon/src/main/java/Modules/SearchModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
